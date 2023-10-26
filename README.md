@@ -44,7 +44,7 @@ Esse projeto está sendo desenvolvido com as seguintes tecnologias:
 Este projeto se chama "Alura Fokus".<br>
 
 Feito para auxiliar na hora de manter o foco nos estudos, utilizando a metodologia pomodoro. <br>
-Pode ser utilizadas pausas curtas ou longas, com ou sem música de fundo para concentração. <br>
+Podem ser utilizadas pausas curtas ou longas, com ou sem música de fundo para concentração. <br>
 Também possui sons de ativação para identificar cada opção selecionada.
 
 <br>Para visualizar a versão atual do projeto é só<a href="https://robertojunnior.github.io/alura-fokus/"> "Clicar aqui".</a>🚀
