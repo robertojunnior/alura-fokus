@@ -1,5 +1,3 @@
-# alura-robotron2000
-
 <h1 align="center"> Projeto Alura Fokus</h1>
 
 <p align="center">
