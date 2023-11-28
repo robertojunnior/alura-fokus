@@ -1,9 +1,7 @@
-# alura-robotron2000
-
 <h1 align="center"> Projeto Alura Fokus</h1>
 
 <p align="center">
-Este é o 3º projeto em desenvolvimento com a utilização de JavaScript com foco na manipulação do DOM, que faz parte da Formação Front End da Platafroma Alura, apresentado por Luan Alves.🧑‍🚀❤️‍🔥<br/>
+Este é o 3º projeto em desenvolvimento utilizando JavaScript com foco na manipulação do DOM, que faz parte da Formação Front End da Platafroma Alura, apresentado por Luan Alves.🧑‍🚀❤️‍🔥<br/>
 </p>
 
 <p align="center">
