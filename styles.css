@@ -3,7 +3,7 @@
     --color-secondary: #FFF;
     --azul-royal: #144480;
     --fundo-card-timer: rgba(20, 68, 128, 0.30);
-    --lils: #B872FF;
+    --lilas: #B872FF;
     --linear-botes: linear-gradient(180deg, #B872FF 0%, #144480 100%);
 }
 
@@ -215,7 +215,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .toggle-checkbox:checked + .toggle-switch {
-    background: var(--lils);
+    background: var(--lilas);
 }
 
 .toggle-checkbox:checked + .toggle-switch:before {
