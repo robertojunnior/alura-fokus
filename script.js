@@ -11,6 +11,7 @@ const musicaFocoInput = document.querySelector("#alternar-musica");
 const musica = new Audio("/sons/luna-rise-part-one.mp3");
 
 let tempoDecorridoEmSegundos = 5;
+let intervaloId = null;
 
 musica.loop = true;
 
@@ -67,6 +68,25 @@ function alterarConteudo(conteudo) {
 }
 
 const contagemRegressiva = () => {
+  if (tempoDecorridoEmSegundos <= 0) {
+    zerar();
+    return;
+  }
   tempoDecorridoEmSegundos -= 1;
   console.log("Temporizador:" + tempoDecorridoEmSegundos);
 };
+
+startPauseBt.addEventListener("click", iniciarOuPausar);
+
+function iniciarOuPausar() {
+  if (intervaloId) {
+    zerar();
+    return;
+  }
+  intervaloId = setInterval(contagemRegressiva, 1000);
+}
+
+function zerar() {
+  clearInterval(intervaloId);
+  intervaloId = null;
+}
